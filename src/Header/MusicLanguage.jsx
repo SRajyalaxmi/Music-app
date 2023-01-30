@@ -51,7 +51,7 @@ export default function MusicLanguage() {
           />
         </ListItem>
       </List>
-      <Menu
+      <Menu style={{display:"flex",flexDirection:"colomn"}}
         id="lock-menu"
         anchorEl={anchorEl}
         open={open}
@@ -60,7 +60,7 @@ export default function MusicLanguage() {
           role: 'listbox',
         }}>
         {options.map((option, index) => (
-          <MenuItem
+          <MenuItem style={{display:"block"}}
             key={option}
             disabled={index === 0}
             selected={index === selectedIndex}

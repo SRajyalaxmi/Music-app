@@ -19,7 +19,7 @@ const Signup = () => {
            </div>
            <div>
           <center>
-          <h1>Welcome to Jiosaavan.</h1>Log in or sign up with your email address.
+          <h1>Welcome to Jiosaavan.</h1>Sign up with your email address.
           <br/><br/><br/>
           <Signuppage />
           </center>
